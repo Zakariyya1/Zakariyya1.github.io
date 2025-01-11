@@ -1,9 +1,40 @@
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-<body>
-  <h1>Deploying on Github Pages</h1>
-  <p>Test deploying on Github Pages</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+    <section id="home">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi! I'm a Software Engineer</p>
+    </section>
 
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <!-- Project cards will go here -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="email" placeholder="Your email" required />
+        <textarea placeholder="Your message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
